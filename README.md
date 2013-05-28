@@ -8,3 +8,8 @@ MLA
 
 The MLA format includes [mla.sty](/mla/mla13.sty) and should include a bibliography.
 
+Navy
+----
+
+The Navy folder includes an [example.tex](/Navy/example.tex) file and the corresponding 
+document type, [navy.cls](/Navy/navy.cls).  This is an example I made for NROTC.
