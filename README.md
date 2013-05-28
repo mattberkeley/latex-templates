@@ -18,6 +18,6 @@ MATLAB
 ----
 
 The Matlab folder includes a same MATLAB code file [examplecode.m](/Matlab/examplecode.m), 
-a same tex file [example.tex](/Matlab/example.tex) which shows proper use, and a
+a sample TeX file [example.tex](/Matlab/example.tex) which shows proper use, and a
 corresponding image output.
 
