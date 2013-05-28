@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.20pt}
+\beamer@sectionintoc {1}{\scshape Introduction}{1}{0}{1}
+\beamer@sectionintoc {2}{\scshape Background}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{frame 1}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{frame 2}{4}{0}{2}
+\beamer@subsectionintoc {2}{3}{frame 3}{5}{0}{2}
+\beamer@sectionintoc {3}{\scshape Methodology}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{frame 1}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{frame 1}{7}{0}{3}
+\beamer@sectionintoc {4}{\scshape Results}{8}{0}{4}
+\beamer@subsectionintoc {4}{1}{Frame 1}{8}{0}{4}
