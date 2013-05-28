@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Article
+% LaTeX Template
+% Version 1.0 (31/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[fleqn,10pt]{navy} % Document font size and equations flushed left
+
+\setlength{\columnsep}{0.55cm} % Distance between the two columns of text
+\setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
+
+\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+\newlength{\tocsep} 
+\setlength\tocsep{1.5pc} % Sets the indentation of the sections in the table of contents
+\setcounter{tocdepth}{3} % Show only three levels in the table of contents section: sections, subsections and subsubsections
+
+\usepackage{lipsum} % Required to insert dummy text
+\usepackage{eso-pic}
+\usepackage[none]{hyphenat}
+\usepackage{draftwatermark}
+\usepackage{transparent}
+
+\usepackage{datetime}
+\newdateformat{mydate}{\THEDAY~\monthname[\THEMONTH]~\THEYEAR}
+%----------------------------------------------------------------------------------------
+%    ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\JournalInfo{NROTC UC Berkeley} % Journal information
+\Archive{Updated \mydate\today} % Additional notes (e.g. copyright, DOI, review/research article)
+
+\PaperTitle{STC Courageous - Day Sailing Checklist} % Article title
+
+\Authors{} % Authors
+\affiliation{\textit{Updated by MIDN 2/C Ginelli}} % Author affiliation
+
+\Keywords{} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\newcommand{\keywordname}{Theater of Operation} % Defines the keywords heading name
+\addto{\captionsenglish}{\renewcommand*{\contentsname}{Outline}}
+%----------------------------------------------------------------------------------------
+%    ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\Abstract{
+Below is a checklist of items to bring for day-sailing.  While these items are just suggestions, keep in mind they are all on the list for a reason!  It is always best to be over-prepared.  There is space on the \emph{Courageous} for storage if you bring a lot of gear.  Do not count on others to bring these items for you.
+}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\SetWatermarkText{\transparent{0.1}\includegraphics[width=\textwidth]{seal.jpg}}
+
+\flushbottom % Makes all text pages the same height
+
+\maketitle % Print the title and abstract box
+
+\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%    ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction} % The \section*{} command stops section numbering
+
+\addcontentsline{toc}{section}{\hspace*{-\tocsep}Introduction} % Adds this section to the table of contents with negative horizontal space equal to the indent for the numbered sections
+This list is for basic day-sailing.  Please see the overnight checklist if sailing for more than one afternoon.
+%------------------------------------------------
+
+
+\section{Basics}
+\begin{itemize}[noitemsep]
+    \item Food and Drink
+    \item Money (if going to land somewhere for lunch)
+    \item Appropriate clothing
+    \item Personal Equipment / Gear
+        \begin{itemize}
+            \item Prevention gear
+        \end{itemize}
+    \item Camera - Record your sailing adventures
+\end{itemize}
+
+\section{Food and Drink}
+While rewarding and a lot of fun, sailing can be a lot of work.  It is easy to get distracted from the necessities (water, food, etc) while sailing.  Being out in the sun all day saps energy and can dehydrate you, so be prepared!
+
+\begin{itemize}[noitemsep]
+    \item \textbf{Water} I will not have anyone dehydrated on my ship!
+    \item Snacks
+        \begin{itemize}
+            \item You will get hungry.  I suggest bringing small snack items that are portable and not messy anytime we are underway.
+        \end{itemize}
+
+\section{Appropriate Clothing}
+The bay's weather changes more times than a 4/C on drill day.  You'll want to bring layers of clothing.
+
+\begin{itemize}[noitemsep]
+    \item Sunglasses (It's bright out there, folks) or a hat
+    \item Layers of clothes
+        \begin{itemize}[noitemsep]
+            \item Wear clothes you won't mind getting wet
+        \end{itemize}
+    \item Appropriate shoes
+\end{itemize}
+
+\section{Personal Equipment}
+Anything fancy that you want to bring.
+
+\begin{itemize}[noitemsep]
+    \item Pocket Knife / Marlin's Spike
+    \item Sailing gloves (there are limited pairs onboard)
+\end{itemize}
+
+\subsection{Prevention Gear}
+\begin{itemize}[noitemsep]
+    \item \textbf{Sunscreen} (SPF 30+)
+    \item Chapstick 
+    \item Benadryl (if you get motion sickness)
+\end{itemize}
+\end{itemize}
+
+
+\end{document}

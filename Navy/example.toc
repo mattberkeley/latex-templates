@@ -1,0 +1,8 @@
+\select@language {english}
+\contentsline {section}{\hspace *{-\tocsep }Introduction}{1}
+\contentsline {section}{\numberline {1}Basics}{1}
+\contentsline {section}{\numberline {2}Food and Drink}{1}
+\contentsline {section}{\numberline {3}Appropriate Clothing}{1}
+\contentsline {section}{\numberline {4}Personal Equipment}{1}
+\contentsline {subsection}{\numberline {4.1}Prevention Gear}{1}
+\contentsfinish 
