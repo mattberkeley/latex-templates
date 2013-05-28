@@ -1,0 +1,66 @@
+%---------------------------------------------------------------------------------------
+%   Letter Template
+%	Matthew Ginelli
+%	28 Feb 2013
+%---------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PREFERENCES
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	pagenumber=false, % Do not add page numbers for letters greater than 1 page
+	parskip=full, % Separates paragraphs with some whitespace, use parskip=half for less space or comment out to return to default
+	fromalign=right, % Aligns the from address to the right
+	foldmarks=true, % Make True to add small fold marks on the left of the page, for a tri-fold letter
+	addrfield=true % Set to true to show the addressee section - you will then want to adjust the height of the body of the letter on the page by adding the following in this section: \makeatletter \@setplength{refvpos}{\useplength{toaddrvpos}} \makeatletter
+	]{scrlttr2}
+
+\setkomavar{backaddress}{} % Remove the underlined back address in the addressee section
+\usepackage[english]{babel} % Explicitly load the babel package to stop an error occurring on some LaTeX installations
+\usepackage{courier} % Change the font
+\renewcommand*{\raggedsignature}{\raggedright} % Stop the signature from indenting
+
+%----------------------------------------------------------------------------------------
+%	INFORMATION AND LETTER DATE
+%----------------------------------------------------------------------------------------
+
+\setkomavar{fromname}{John Doe} 
+\setkomavar{fromaddress}{123 Main Street \\ Berkeley, CA 94704} % Change to CURRENT address
+\setkomavar{signature}{John Doe} 
+
+\date{\today} % Date of the letter... change if not today's date.
+
+%----------------------------------------------------------------------------------------
+ 
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE
+%----------------------------------------------------------------------------------------
+ 
+\begin{letter}{Dan Keig \\ Owner \\ Berkeley, CA 94704} % Addressee name and address
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Mr. Keig,} % or Madam,
+I am hereby giving 30 days written notice that I will be moving out of my apartment at 123 Main Street on or before May 31, 2013. This will close my lease with your properties. 
+
+I will be in contact with Ms. O'toole shortly about security deposits and other matters regarding the termination of the lease.
+
+If you have any questions, please contact me at 555-555-5555
+
+
+
+\closing{Sincerely,}
+
+\setkomavar*{enclseparator}{Attached} % Change the default "encl:" to "Attached:"
+% \encl{Whatever you're enclosing} % Uncomment if you have an extra page(s).
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+ 
+\end{document}
