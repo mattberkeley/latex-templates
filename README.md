@@ -6,5 +6,5 @@ This is a repository strictly for the collection of LaTeX files and templates I'
 MLA
 ----
 
-The MLA format includes [mla.sty] and should include a bibliography.
+The MLA format includes [mla.sty](/mla/mla13.sty) and should include a bibliography.
 
