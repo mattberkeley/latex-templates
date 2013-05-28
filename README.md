@@ -21,3 +21,8 @@ The Matlab folder includes a same MATLAB code file [examplecode.m](/Matlab/examp
 a sample TeX file [example.tex](/Matlab/example.tex) which shows proper use, and a
 corresponding image output.
 
+Letter
+-----
+
+A sample [letter](/letter/example.tex) format, with optional tri-fold marks.
+
