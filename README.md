@@ -30,3 +30,9 @@ Resume
 ----
 
 My [Resume](/resume/main.tex) and [Cover letter](/resume/cv.tex) examples.
+
+Beamer
+----
+
+A sample Beamer [presentation](/beamer-practice/beamer-template.tex) file.
+
