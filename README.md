@@ -13,3 +13,11 @@ Navy
 
 The Navy folder includes an [example.tex](/Navy/example.tex) file and the corresponding 
 document type, [navy.cls](/Navy/navy.cls).  This is an example I made for NROTC.
+
+MATLAB
+----
+
+The Matlab folder includes a same MATLAB code file [examplecode.m](/Matlab/examplecode.m), 
+a same tex file [example.tex](/Matlab/example.tex) which shows proper use, and a
+corresponding image output.
+
