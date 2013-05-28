@@ -26,3 +26,7 @@ Letter
 
 A sample [letter](/letter/example.tex) format, with optional tri-fold marks.
 
+Resume 
+----
+
+My [Resume](/resume/main.tex) and [Cover letter](/resume/cv.tex) examples.
